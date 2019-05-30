@@ -1,0 +1,40 @@
+.addUserBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+:global{
+  .ant-card-body {
+    padding: 10px;
+  }
+  .ant-tabs-bar {
+    border-bottom: 0;
+  }
+  .ant-card {
+    background: transparent;
+  }
+  .ant-card-bordered {
+    width: 33.3% !important;
+    margin-right: 0.03%;
+    border: 1px solid #ccc;
+  }
+  .ant-tabs-ink-bar {
+    display: none !important;
+    background: transparent;
+  }
+  .ant-tabs-nav, .ant-tabs-tab-active {
+    height: 35px;
+  }
+  .ant-tabs-nav-container{
+    overflow: inherit;
+  }
+  .ant-tabs-tab {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 20px !important;
+    margin: 0 !important; 
+  }
+  .ant-tabs-tab-active {
+    border: 1px solid #1890ff;
+  }
+}
